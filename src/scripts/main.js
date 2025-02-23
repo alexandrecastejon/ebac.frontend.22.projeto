@@ -1,3 +1,5 @@
+process.setMaxListeners(20)
+
 AOS.init();
 
 const dataDoEvento = new Date("Oct 9, 2025 19:00:00");
